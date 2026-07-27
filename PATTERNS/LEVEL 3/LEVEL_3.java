@@ -196,8 +196,7 @@ class FloydTriangle{
                     }
                     System.out.print("");
                 }
-
-            break Main;
+                break Main;
             }
             else{
                 System.out.println("TRY WITH POSITIVE NUMBER");
@@ -212,5 +211,6 @@ public class LEVEL_3{
         // HollowButterFlyPattern.print();
         // X_Pattern.print();
         // PlusPattern.print();
+        FloydTriangle.print();
     }
 }
