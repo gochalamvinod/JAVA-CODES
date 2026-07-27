@@ -69,6 +69,16 @@ class AlphabetTriangle{
     static void print(){
         Scanner input = new Scanner(System.in);
         System.out.print("ENTER THE NUMBER OF LINES : ");
+        int number = input.nextInt();
+        while (true){
+            if (number>0 && number<=26){
+                
+            }
+            else{
+                System.out.print("TRY WITH NUMBER IN RANGE OF 0 TO 26");
+            }
+        }
+
     }
 }
 
@@ -80,5 +90,6 @@ class Main{
         // IncreasingNumberTriangle.print();
         // RepeatedNumberTriangle.print();
         AlphabetTriangle.print();
+
     }
 }
