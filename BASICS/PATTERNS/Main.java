@@ -5,16 +5,18 @@ class SolidSquare{
         Scanner input = new Scanner(System.in);
         System.out.print("ENTER THE NUMBER OF LINES : ");
         int number = input.nextInt();
-        if(number>0){
-            for (int i = 1;i<=number;i++){
-                for ( int j = 1;j<=number;j++){
-                    System.out.print("* ");
+        while (true){
+            if(number>0){
+                for (int i = 1;i<=number;i++){
+                    for ( int j = 1;j<=number;j++){
+                        System.out.print("* ");
+                    }
+                    System.out.println("");
                 }
-                System.out.println("");
             }
-        }
-        else {
-            System.out.print("TRY WITH NUMBER GREATER THAN ZERO");
+            else {
+                System.out.print("TRY WITH NUMBER GREATER THAN ZERO");
+            }
         }
     } 
 }
