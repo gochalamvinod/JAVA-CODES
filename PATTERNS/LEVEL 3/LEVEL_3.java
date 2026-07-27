@@ -171,12 +171,28 @@ class PlusPattern{
                     else{
                         System.out.println(" ".repeat(number/2)+"*"+" ".repeat(number/2));
                     }
-                }
+                }break Main;
             }
             else{
                 System.out.println("TRY WITH POSITIVE NUMBER : ");
             }
-            break Main;
+            
+        }
+    }
+}
+class FloydTriangle{
+    static void print(){
+        Main:
+        while (true){
+            Scanner input = new Scanner(System.in);
+            System.out.print("ENTER THE NUMBER : ");
+            int number = input.nextInt();
+            if (number>0){
+
+            }
+            else{
+                System.out.println("TRY WITH POSITIVE NUMBER");
+            }
         }
     }
 }
