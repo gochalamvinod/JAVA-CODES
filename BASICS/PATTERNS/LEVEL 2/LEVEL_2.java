@@ -1,6 +1,6 @@
 import java.util.*;
 
-class RightAlignedTriangle{
+public class RightAlignedTriangle{
     static void print(){
         Scanner input = new Scanner(System.in);
         while (true){
@@ -20,7 +20,7 @@ class RightAlignedTriangle{
 }
 
 
-class ReverseRightAlignedTriangle{
+public class ReverseRightAlignedTriangle{
     static void print(){
         Scanner input = new Scanner(System.in);
         while (true){
@@ -40,7 +40,7 @@ class ReverseRightAlignedTriangle{
 }
 
 
-class StarPyramid{
+public class StarPyramid{
     static void print(){
         Scanner input = new Scanner(System.in);
         while (true){
@@ -60,7 +60,7 @@ class StarPyramid{
 }
 
 
-class InvertedStarPyramid{
+public class InvertedStarPyramid{
     static void print(){
         Scanner input = new Scanner(System.in);
         while (true){
@@ -80,7 +80,7 @@ class InvertedStarPyramid{
 }
 
 
-class NumberPyramid{
+public class NumberPyramid{
     static void print(){
         Scanner input = new Scanner(System.in);
         while (true){
@@ -100,7 +100,7 @@ class NumberPyramid{
 }
 
 
-class RepeatedNumberPyramid{
+public class RepeatedNumberPyramid{
     static void print(){
         Scanner input = new Scanner(System.in);
         while (true){
@@ -120,7 +120,7 @@ class RepeatedNumberPyramid{
 }
 
 
-class AlphabetPyramid{
+public class AlphabetPyramid{
     static void print(){
         Scanner input = new Scanner(System.in);
         while (true){
@@ -146,7 +146,7 @@ class AlphabetPyramid{
 }
 
 
-class HollowSquare{
+public class HollowSquare{
     static void print(){
         Scanner input = new Scanner(System.in);
         while (true){
@@ -174,7 +174,7 @@ class HollowSquare{
 }
 
 
-class HollowTriangle{
+public class HollowTriangle{
     static void print(){
         Scanner input = new Scanner(System.in);
         while (true){
@@ -202,7 +202,7 @@ class HollowTriangle{
 }
 
 
-class HollowPyramid{
+public class HollowPyramid{
     static void print(){
         Scanner input = new Scanner(System.in);
         while (true){
@@ -233,7 +233,7 @@ class HollowPyramid{
 }
 
 
-class LEVEL_2{
+public class LEVEL_2{
     public static void main(String args[]){
         RightAlignedTriangle.print();
         ReverseRightAlignedTriangle.print();
