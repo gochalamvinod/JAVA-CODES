@@ -164,7 +164,14 @@ class PlusPattern{
             System.out.print("ENTER THE NUMBER : ");
             int number = input.nextInt();
             if (number>0){
-
+                for ( int i = 1; i <= number ; i++){
+                    if (i==number/2){
+                        System.out.println("*".repeat(number));
+                    }
+                    else{
+                        System.out.println(" ".repeat(number/2)+"*"+" ".repeat(number/2));
+                    }
+                }
             }
             else{
                 System.out.println("TRY WITH POSITIVE NUMBER : ");
@@ -179,5 +186,6 @@ public class LEVEL_3{
         // ButterFlyPattern.print();
         // HollowButterFlyPattern.print();
         // X_Pattern.print();
+        PlusPattern.print();
     }
 }
