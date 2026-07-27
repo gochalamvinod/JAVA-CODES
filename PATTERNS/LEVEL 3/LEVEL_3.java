@@ -189,12 +189,12 @@ class FloydTriangle{
             int number = input.nextInt();
             int val=1;
             if (number>0){
-                for (int i = 1; i < = number ; i++){
+                for (int i = 1; i <= number ; i++){
                     for(int j = 1 ; j <=i ; j++ ){
                         System.out.print(val+" ");
                         val++;
                     }
-                    System.out.print("");
+                    System.out.println("");
                 }
                 break Main;
             }
