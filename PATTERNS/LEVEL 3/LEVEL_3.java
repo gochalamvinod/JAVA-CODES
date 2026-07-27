@@ -111,7 +111,7 @@ class HollowButterFlyPattern{
                 }
             }
             else {
-                System.out.print("TRY AGAIN ");
+                System.out.println("TRY AGAIN ");
             }
             break Main;
         }
@@ -149,7 +149,7 @@ class X_Pattern{
                 }
             }
             else {
-                System.out.print("TRY AGAIN ");
+                System.out.println("TRY AGAIN ");
             }
             break Main;
         }
@@ -158,13 +158,18 @@ class X_Pattern{
 
 class PlusPattern{
     static void print(){
+        Main:
         while (true){
+            Scanner input = new Scanner(System.in);
+            System.out.print("ENTER THE NUMBER : ");
+            int number = input.nextInt();
             if (number>0){
 
             }
             else{
-                System.out.print("TRY WITH POSITIVE NUMBER : ");
+                System.out.println("TRY WITH POSITIVE NUMBER : ");
             }
+            break Main;
         }
     }
 }
