@@ -1,43 +1,84 @@
-@echo off
-title JAVA-CODES Auto Sync
-cd /d "C:\Users\gocha\Desktop\JAVA FOR GITHUB"
+import java.util.*;
 
-echo ========================================
-echo       JAVA-CODES AUTO SYNC
-echo ========================================
-echo Repository: %CD%
-echo.
-echo Press Ctrl+C to stop.
-echo.
+class SolidSquare{
+    static void print(){
+        Scanner input = new Scanner(System.in);
+        System.out.print("ENTER THE NUMBER OF LINES : ");
+        int number = input.nextInt();
+        for (int i = 1;i<=number;i++){
+            for ( int j = 1;j<=number;j++){
+                System.out.print("* ");
+            }
+            System.out.println("");
+        }
+    } 
+}
 
-:LOOP
 
-git add .
 
-git diff --cached --quiet
+class IncreasingStarTriangle{
+    static void print(){
+        Scanner input = new Scanner(System.in);
+        System.out.print("ENTER THE NUMBER OF LINES : ");
+        int number = input.nextInt();
+         for (int i =1;i<=number;i++){
+            System.out.println("* ".repeat(i));
+        }
+    }
+}
 
-if %errorlevel% EQU 1 goto CHANGES
+class DecreasingStarTriangle{
+    static void print(){
+        Scanner input = new Scanner(System.in);
+        System.out.print("ENTER THE NUMBER OF LINES : ");
+        int number = input.nextInt();
+        while (number>0){
+            System.out.println("* ".repeat(number));
+            number--;
+        }
+    }
+}
 
-echo [%date% %time%] No changes.
-goto WAIT
+class IncreasingNumberTriangle{
+    static void print(){
+        Scanner input = new Scanner(System.in);
+        System.out.print("ENTER THE NUMBER OF LINES : ");
+        int number = input.nextInt();
+        for (int i = 1 ; i<=number ; i++){
+            for ( int j =1 ; j<=i;j++){
+                System.out.print(j+" ");
+            }
+            System.out.println("");
+        }
+    }
+}
 
-:CHANGES
-echo.
-echo [CHANGE DETECTED]
-echo [COMMITTING...]
+class RepeatedNumberTriangle{
+    static void print(){
+        Scanner input = new Scanner (System.in);
+        System.out.print("ENTER THE NUMBER OF LINES : ");
+        int number = input.nextInt();
+        for (int i = 1 ; i<=number;i++){
+            System.out.println(Integer.toString(i).repeat(i));
+        }
+        
+    }
+}
 
-git commit -m "Auto sync"
+class AlphabetTriangle{
+    static void print(){
+        Scanner input = new Scanner(System.in);
+        System.out.print("ENTER THE NUMBER OF LINES : ");
+    }
+}
 
-echo [PUSHING TO GITHUB...]
-
-git push
-
-if %errorlevel% EQU 0 (
-    echo [SYNC SUCCESSFUL]
-) else (
-    echo [PUSH FAILED - WILL TRY AGAIN]
-)
-
-:WAIT
-timeout /t 10 /nobreak >nul
-goto LOOP
+class Main{
+    public static void main(String args[]){
+        // SolidSquare.print();
+        // IncreasingStarTriangle.print();
+        // DecreasingStarTriangle.print();
+        // IncreasingNumberTriangle.print();
+        // RepeatedNumberTriangle.print();
+        AlphabetTriangle.print();
+    }
+}

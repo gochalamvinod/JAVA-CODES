@@ -12,29 +12,32 @@ echo.
 
 :LOOP
 
-REM Add all changes from ALL subfolders
 git add .
 
-REM Check whether anything changed
 git diff --cached --quiet
 
-if %errorlevel% EQU 1 (
-    echo.
-    echo [CHANGE DETECTED]
-    
-    git commit -m "Auto sync"
+if %errorlevel% EQU 1 goto CHANGES
 
-    if %errorlevel% EQU 0 (
-        echo [PUSHING TO GITHUB...]
-        git push
-    ) else (
-        echo [COMMIT FAILED]
-    )
+echo [%date% %time%] No changes.
+goto WAIT
+
+:CHANGES
+echo.
+echo [CHANGE DETECTED]
+echo [COMMITTING...]
+
+git commit -m "Auto sync"
+
+echo [PUSHING TO GITHUB...]
+
+git push
+
+if %errorlevel% EQU 0 (
+    echo [SYNC SUCCESSFUL]
 ) else (
-    echo [%date% %time%] No changes.
+    echo [PUSH FAILED - WILL TRY AGAIN]
 )
 
-REM Check every 10 seconds
+:WAIT
 timeout /t 10 /nobreak >nul
-
 goto LOOP
