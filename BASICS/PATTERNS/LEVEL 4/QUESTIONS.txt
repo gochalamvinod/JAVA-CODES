@@ -1,0 +1,10 @@
+Write a Java program to print Pascal's triangle.
+Write a Java program to print a number spiral.
+Write a Java program to print a matrix boundary pattern.
+Write a Java program to print both diagonals of a square matrix.
+Write a Java program to print a zig-zag pattern.
+Write a Java program to print a wave pattern.
+Write a Java program to print a snake matrix.
+Write a Java program to print a concentric number square.
+Write a Java program to print a concentric alphabet square.
+Write a Java program to print a matrix in spiral order.

@@ -1,0 +1,15 @@
+Write a Java program to print a hollow diamond.
+Write a Java program to print a butterfly pattern.
+Write a Java program to print a hollow butterfly pattern.
+Write a Java program to print an X pattern.
+Write a Java program to print a + pattern.
+Write a Java program to print Floyd's triangle.
+Write a Java program to print Floyd's triangle in reverse.
+Write a Java program to print a palindrome number pyramid.
+Write a Java program to print a palindrome alphabet pyramid.
+Write a Java program to print a number hourglass.
+Write a Java program to print a star hourglass.
+Write a Java program to print a hollow hourglass.
+Write a Java program to print a continuous alphabet triangle.
+Write a Java program to print a multiplication triangle.
+Write a Java program to print a number diamond.

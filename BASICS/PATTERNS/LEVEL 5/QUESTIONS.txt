@@ -1,0 +1,10 @@
+Write a Java program to generate Pascal's triangle without directly using the combination formula.
+Write a Java program to generate a palindrome number diamond dynamically for any n.
+Write a Java program to generate a character spiral dynamically for any n.
+Write a Java program to generate a number spiral matrix dynamically for any n.
+Write a Java program to generate a snake matrix dynamically for any n.
+Write a Java program to print a diamond inside a square.
+Write a Java program to print a diamond inside another diamond.
+Write a Java program to print alternating-direction number rows.
+Write a Java program to print alternating alphabet and number rows.
+Write a Java program where the user selects a pattern from a menu and the program generates the selected pattern.
