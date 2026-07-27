@@ -187,8 +187,17 @@ class FloydTriangle{
             Scanner input = new Scanner(System.in);
             System.out.print("ENTER THE NUMBER : ");
             int number = input.nextInt();
+            int val=1;
             if (number>0){
+                for (int i = 1; i < = number ; i++){
+                    for(int j = 1 ; j <=i ; j++ ){
+                        System.out.print(val+" ");
+                        val++;
+                    }
+                    System.out.print("");
+                }
 
+            break Main;
             }
             else{
                 System.out.println("TRY WITH POSITIVE NUMBER");
