@@ -82,6 +82,6 @@ class ButterFlyPattern{
 public class LEVEL_3{
     public static void main(String args[]){
         // HollowDiamond.print();
-        ButterFlyPattern.print();
+        // ButterFlyPattern.print();
     }
 }
