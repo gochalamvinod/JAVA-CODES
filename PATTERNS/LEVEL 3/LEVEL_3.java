@@ -156,6 +156,18 @@ class X_Pattern{
     }
 }
 
+class PlusPattern{
+    static void print(){
+        while (true){
+            if (number>0){
+
+            }
+            else{
+                System.out.print("TRY WITH POSITIVE NUMBER : ");
+            }
+        }
+    }
+}
 public class LEVEL_3{
     public static void main(String args[]){
         // HollowDiamond.print();
