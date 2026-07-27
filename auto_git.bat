@@ -25,6 +25,7 @@ echo ========================================
 echo Repository : %CD%
 echo Interval   : %SYNC_INTERVAL% seconds
 echo Log file   : %LOG_FILE%
+echo Mode       : FORCE ADD (ignored files included)
 echo Press Ctrl+C to stop.
 echo ========================================
 echo.
@@ -37,7 +38,7 @@ if errorlevel 1 (
     goto WAIT
 )
 
-git add -A
+git add -f -A .
 
 git diff --cached --quiet
 if %errorlevel% EQU 0 (
