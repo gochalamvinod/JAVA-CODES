@@ -1,21 +1,21 @@
 import java.util.*;
-class SolidSquare {
-    static void print() {
+class SolidSquare{
+    static void print(){
         Scanner input = new Scanner(System.in);
         Main:
-        while (true) {
+        while (true){
             System.out.print("ENTER THE NUMBER OF LINES : ");
             int number = input.nextInt();
-            if (number > 0) {
-                for (int i = 1; i <= number; i++) {
-                    for (int j = 1; j <= number; j++) {
+            if (number > 0){
+                for (int i = 1; i <= number; i++){
+                    for (int j = 1; j <= number; j++){
                         System.out.print("* ");
                     }
                     System.out.println("");
                 }
                 break Main;
             }
-            else {
+            else{
                 System.out.print("TRY WITH NUMBER GREATER THAN ZERO : ");
                 // number = input.nextInt();
             }
@@ -23,21 +23,20 @@ class SolidSquare {
     }
 }
 
-
-class IncreasingStarTriangle {
-    static void print() {
+class IncreasingStarTriangle{
+    static void print(){
         Scanner input = new Scanner(System.in);
         Main:
-        while (true) {
+        while (true){
             System.out.print("ENTER THE NUMBER OF LINES : ");
             int number = input.nextInt();
-            if (number > 0) {
-                for (int i = 1; i <= number; i++) {
+            if (number > 0){
+                for (int i = 1; i <= number; i++){
                     System.out.println("* ".repeat(i));
                 }
                 break Main;
             }
-            else {
+            else{
                 System.out.print("TRY WITH NUMBER GREATER THAN ZERO : ");
                 // number = input.nextInt();
             }
@@ -45,21 +44,20 @@ class IncreasingStarTriangle {
     }
 }
 
-
-class DecreasingStarTriangle {
-    static void print() {
+class DecreasingStarTriangle{
+    static void print(){
         Scanner input = new Scanner(System.in);
         Main:
-        while (true) {
+        while (true){
             System.out.print("ENTER THE NUMBER OF LINES : ");
             int number = input.nextInt();
-            if (number > 0) {
-                for (int i = number; i > 0; i--) {
+            if (number > 0){
+                for (int i = number; i > 0; i--){
                     System.out.println("* ".repeat(i));
                 }
                 break Main;
             }
-            else {
+            else{
                 System.out.print("TRY WITH NUMBER GREATER THAN ZERO : ");
                 // number = input.nextInt();
             }
@@ -67,24 +65,23 @@ class DecreasingStarTriangle {
     }
 }
 
-
-class IncreasingNumberTriangle {
-    static void print() {
+class IncreasingNumberTriangle{
+    static void print(){
         Scanner input = new Scanner(System.in);
         Main:
-        while (true) {
+        while (true){
             System.out.print("ENTER THE NUMBER OF LINES : ");
             int number = input.nextInt();
-            if (number > 0) {
-                for (int i = 1; i <= number; i++) {
-                    for (int j = 1; j <= i; j++) {
+            if (number > 0){
+                for (int i = 1; i <= number; i++){
+                    for (int j = 1; j <= i; j++){
                         System.out.print(j + " ");
                     }
                     System.out.println("");
                 }
                 break Main;
             }
-            else {
+            else{
                 System.out.print("TRY WITH NUMBER GREATER THAN ZERO : ");
                 // number = input.nextInt();
             }
@@ -92,22 +89,21 @@ class IncreasingNumberTriangle {
     }
 }
 
-
-class RepeatedNumberTriangle {
-    static void print() {
+class RepeatedNumberTriangle{
+    static void print(){
         Scanner input = new Scanner(System.in);
         Main:
-        while (true) {
+        while (true){
            
             System.out.print("ENTER THE NUMBER OF LINES : ");
             int number = input.nextInt();
-            if (number > 0) {
-                for (int i = 1; i <= number; i++) {
+            if (number > 0){
+                for (int i = 1; i <= number; i++){
                     System.out.println(Integer.toString(i).repeat(i));
                 }
                 break Main;
             }
-            else {
+            else{
                 System.out.print("TRY WITH NUMBER GREATER THAN ZERO : ");
                 // number = input.nextInt();
             }
@@ -115,7 +111,31 @@ class RepeatedNumberTriangle {
     }
 }
 
-class AlphabetTriangle {
+class IncreasingAlphabetTriangle{
+    static void print(){
+        Scanner input = new Scanner(System.in);
+        Main : 
+        while (true){
+            System.out.print("ENTER THE NUMBER OF LINES : ");
+            int number = input.nextInt();
+            if (number>0 && number<=26){
+                for(int i = 1 ; i<=number;i++){
+                    for(int j = 0 ; j<i;j++){
+                        System.out.print((char)('A'+j));
+                    }
+                    System.out.println("");
+                }
+                break Main;
+            }
+            else{
+                System.out.print("TRY WITH NUMBER IN RANGE OF 1 TO 26");
+            }
+        }
+
+    }
+}
+
+class AlphabetTriangle{
     static void print(){
         Scanner input = new Scanner(System.in);
         Main : 
@@ -137,87 +157,87 @@ class AlphabetTriangle {
     }
 }
 
-class ReverseNumberTriangle {
-    static void print() {
+class ReverseNumberTriangle{
+    static void print(){
         Scanner input = new Scanner(System.in);
         Main:
-        while (true) {
+        while (true){
             System.out.print("ENTER THE NUMBER OF LINES : ");
             int number = input.nextInt();
 
-            if (number > 0) {
-                for (int i = number; i > 0; i--) {
-                    for (int j = 1; j <= i; j++) {
+            if (number > 0){
+                for (int i = number; i > 0; i--){
+                    for (int j = 1; j <= i; j++){
                         System.out.print(j);
                     }
                     System.out.println("");
                 }
                 break Main;
             }
-            else {
+            else{
                 System.out.print("TRY WITH NUMBER GREATER THAN ZERO : ");
             }
         }
     }
 }
 
-
-class ReverseRepeatedNumberTriangle {
-    static void print() {
+class ReverseRepeatedNumberTriangle{
+    static void print(){
         Scanner input = new Scanner(System.in);
         Main:
-        while (true) {
+        while (true){
             System.out.print("ENTER THE NUMBER OF LINES : ");
             int number = input.nextInt();
 
-            if (number > 0) {
-                for (int i = number; i > 0; i--) {
+            if (number > 0){
+                for (int i = number; i > 0; i--){
                     System.out.println(Integer.toString(i).repeat(i));
                 }
                 break Main;
             }
-            else {
+            else{
                 System.out.print("TRY WITH NUMBER GREATER THAN ZERO : ");
             }
         }
     }
 }
 
-
-class ZeroOneTriangle {
-    static void print() {
+class ZeroOneTriangle{
+    static void print(){
         Scanner input = new Scanner(System.in);
         Main:
-        while (true) {
+        while (true){
             System.out.print("ENTER THE NUMBER OF LINES : ");
             int number = input.nextInt();
 
-            if (number > 0) {
-                for (int i = 1; i <= number; i++) {
-                    for (int j = 1; j <= i; j++) {
+            if (number > 0){
+                for (int i = 1; i <= number; i++){
+                    for (int j = 1; j <= i; j++){
                         System.out.print((i + j) % 2);
                     }
                     System.out.println("");
                 }
                 break Main;
             }
-            else {
+            else{
                 System.out.print("TRY WITH NUMBER GREATER THAN ZERO : ");
             }
         }
     }
 }
+
 class LEVEL_1{
     public static void main(String args[]){
         SolidSquare.print();
-        // IncreasingStarTriangle.print();
-        // DecreasingStarTriangle.print();
-        // IncreasingNumberTriangle.print();
-        // RepeatedNumberTriangle.print();
-        // AlphabetTriangle.print();
-        // ReverseNumberTriangle.print();
-        // ReverseRepeatedNumberTriangle.print();
-        // ZeroOneTriangle.print();
+        IncreasingStarTriangle.print();
+        DecreasingStarTriangle.print();
+        IncreasingNumberTriangle.print();
+        RepeatedNumberTriangle.print();
+        IncreasingAlphabetTriangle.print();
+        AlphabetTriangle.print();
+        ReverseNumberTriangle.print();
+        ReverseRepeatedNumberTriangle.print();
+        ZeroOneTriangle.print();
 
     }
 }
