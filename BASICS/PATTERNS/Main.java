@@ -5,7 +5,7 @@ class SolidSquare{
         Scanner input = new Scanner(System.in);
         System.out.print("ENTER THE NUMBER OF LINES : ");
         int number = input.nextInt();
-        while (true){
+        Main : while (true){
             if(number>0){
                 for (int i = 1;i<=number;i++){
                     for ( int j = 1;j<=number;j++){
@@ -13,6 +13,8 @@ class SolidSquare{
                     }
                     System.out.println("");
                 }
+                break Main;
+                
             }
             else {
                 System.out.print("TRY WITH NUMBER GREATER THAN ZERO");
