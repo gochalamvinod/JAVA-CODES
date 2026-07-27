@@ -1,7 +1,4 @@
 import java.util.*;
-
-import java.util.*;
-
 class SolidSquare {
     static void print() {
         Scanner input = new Scanner(System.in);
@@ -20,7 +17,7 @@ class SolidSquare {
             }
             else {
                 System.out.print("TRY WITH NUMBER GREATER THAN ZERO : ");
-                number = input.nextInt();
+                // number = input.nextInt();
             }
         }
     }
@@ -42,7 +39,7 @@ class IncreasingStarTriangle {
             }
             else {
                 System.out.print("TRY WITH NUMBER GREATER THAN ZERO : ");
-                number = input.nextInt();
+                // number = input.nextInt();
             }
         }
     }
@@ -64,7 +61,7 @@ class DecreasingStarTriangle {
             }
             else {
                 System.out.print("TRY WITH NUMBER GREATER THAN ZERO : ");
-                number = input.nextInt();
+                // number = input.nextInt();
             }
         }
     }
@@ -89,7 +86,7 @@ class IncreasingNumberTriangle {
             }
             else {
                 System.out.print("TRY WITH NUMBER GREATER THAN ZERO : ");
-                number = input.nextInt();
+                // number = input.nextInt();
             }
         }
     }
@@ -112,13 +109,13 @@ class RepeatedNumberTriangle {
             }
             else {
                 System.out.print("TRY WITH NUMBER GREATER THAN ZERO : ");
-                number = input.nextInt();
+                // number = input.nextInt();
             }
         }
     }
 }
 
-class AlphabetTriangle{
+class AlphabetTriangle {
     static void print(){
         Scanner input = new Scanner(System.in);
         Main : 
@@ -140,14 +137,87 @@ class AlphabetTriangle{
     }
 }
 
+class ReverseNumberTriangle {
+    static void print() {
+        Scanner input = new Scanner(System.in);
+        Main:
+        while (true) {
+            System.out.print("ENTER THE NUMBER OF LINES : ");
+            int number = input.nextInt();
+
+            if (number > 0) {
+                for (int i = number; i > 0; i--) {
+                    for (int j = 1; j <= i; j++) {
+                        System.out.print(j);
+                    }
+                    System.out.println("");
+                }
+                break Main;
+            }
+            else {
+                System.out.print("TRY WITH NUMBER GREATER THAN ZERO : ");
+            }
+        }
+    }
+}
+
+
+class ReverseRepeatedNumberTriangle {
+    static void print() {
+        Scanner input = new Scanner(System.in);
+        Main:
+        while (true) {
+            System.out.print("ENTER THE NUMBER OF LINES : ");
+            int number = input.nextInt();
+
+            if (number > 0) {
+                for (int i = number; i > 0; i--) {
+                    System.out.println(Integer.toString(i).repeat(i));
+                }
+                break Main;
+            }
+            else {
+                System.out.print("TRY WITH NUMBER GREATER THAN ZERO : ");
+            }
+        }
+    }
+}
+
+
+class ZeroOneTriangle {
+    static void print() {
+        Scanner input = new Scanner(System.in);
+        Main:
+        while (true) {
+            System.out.print("ENTER THE NUMBER OF LINES : ");
+            int number = input.nextInt();
+
+            if (number > 0) {
+                for (int i = 1; i <= number; i++) {
+                    for (int j = 1; j <= i; j++) {
+                        System.out.print((i + j) % 2);
+                    }
+                    System.out.println("");
+                }
+                break Main;
+            }
+            else {
+                System.out.print("TRY WITH NUMBER GREATER THAN ZERO : ");
+            }
+        }
+    }
+}
 class LEVEL_1{
     public static void main(String args[]){
-        // SolidSquare.print();
+        SolidSquare.print();
         // IncreasingStarTriangle.print();
         // DecreasingStarTriangle.print();
         // IncreasingNumberTriangle.print();
         // RepeatedNumberTriangle.print();
         // AlphabetTriangle.print();
+        // ReverseNumberTriangle.print();
+        // ReverseRepeatedNumberTriangle.print();
+        // ZeroOneTriangle.print();
 
     }
 }
