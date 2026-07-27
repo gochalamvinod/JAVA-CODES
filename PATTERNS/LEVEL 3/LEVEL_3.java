@@ -186,6 +186,6 @@ public class LEVEL_3{
         // ButterFlyPattern.print();
         // HollowButterFlyPattern.print();
         // X_Pattern.print();
-        PlusPattern.print();
+        // PlusPattern.print();
     }
 }
