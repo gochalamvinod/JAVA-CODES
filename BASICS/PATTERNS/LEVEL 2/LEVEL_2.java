@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class RightAlignedTriangle{
+class RightAlignedTriangle{
     static void print(){
         Scanner input = new Scanner(System.in);
         while (true){
@@ -20,7 +20,7 @@ public class RightAlignedTriangle{
 }
 
 
-public class ReverseRightAlignedTriangle{
+class ReverseRightAlignedTriangle{
     static void print(){
         Scanner input = new Scanner(System.in);
         while (true){
@@ -40,7 +40,7 @@ public class ReverseRightAlignedTriangle{
 }
 
 
-public class StarPyramid{
+class StarPyramid{
     static void print(){
         Scanner input = new Scanner(System.in);
         while (true){
@@ -60,7 +60,7 @@ public class StarPyramid{
 }
 
 
-public class InvertedStarPyramid{
+class InvertedStarPyramid{
     static void print(){
         Scanner input = new Scanner(System.in);
         while (true){
@@ -80,7 +80,7 @@ public class InvertedStarPyramid{
 }
 
 
-public class NumberPyramid{
+class NumberPyramid{
     static void print(){
         Scanner input = new Scanner(System.in);
         while (true){
@@ -100,7 +100,7 @@ public class NumberPyramid{
 }
 
 
-public class RepeatedNumberPyramid{
+class RepeatedNumberPyramid{
     static void print(){
         Scanner input = new Scanner(System.in);
         while (true){
@@ -120,7 +120,7 @@ public class RepeatedNumberPyramid{
 }
 
 
-public class AlphabetPyramid{
+class AlphabetPyramid{
     static void print(){
         Scanner input = new Scanner(System.in);
         while (true){
@@ -146,7 +146,7 @@ public class AlphabetPyramid{
 }
 
 
-public class HollowSquare{
+class HollowSquare{
     static void print(){
         Scanner input = new Scanner(System.in);
         while (true){
@@ -174,7 +174,7 @@ public class HollowSquare{
 }
 
 
-public class HollowTriangle{
+class HollowTriangle{
     static void print(){
         Scanner input = new Scanner(System.in);
         while (true){
@@ -202,7 +202,7 @@ public class HollowTriangle{
 }
 
 
-public class HollowPyramid{
+class HollowPyramid{
     static void print(){
         Scanner input = new Scanner(System.in);
         while (true){

@@ -1,0 +1,10 @@
+Write a Java program to print a solid square of *.
+Write a Java program to print an increasing triangle of *.
+Write a Java program to print a decreasing triangle of *.
+Write a Java program to print numbers from 1 to n in triangle form.
+Write a Java program to print the same number repeatedly in each row.
+Write a Java program to print alphabets in increasing order row-wise.
+Write a Java program to print the same alphabet repeatedly in each row.
+Write a Java program to print numbers in reverse triangle form.
+Write a Java program to print a 0 and 1 pattern alternately.
+Write a Java program to print a right-aligned triangle using *.

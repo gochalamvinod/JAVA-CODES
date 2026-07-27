@@ -1,0 +1,16 @@
+
+Write a Java program to print a centered pyramid using *.
+Write a Java program to print an inverted centered pyramid.
+Write a Java program to print a centered pyramid using numbers.
+Write a Java program to print a centered pyramid using alphabets.
+Write a Java program to print a hollow square.
+Write a Java program to print a hollow rectangle.
+Write a Java program to print a hollow triangle.
+Write a Java program to print a hollow centered pyramid.
+Write a Java program to print a diamond using *.
+Write a Java program to print an inverted diamond using *.
+Write a Java program to print a number pyramid where each row contains the same number.
+Write a Java program to print a pyramid where numbers increase from 1 and then decrease back to 1.
+Write a Java program to print an alphabet pyramid where letters increase and then decrease.
+Write a Java program to print a butterfly pattern using nested loops.
+Write a Java program to print an X pattern using nested loops.
