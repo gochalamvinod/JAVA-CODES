@@ -140,14 +140,14 @@ class AlphabetTriangle{
     }
 }
 
-class Main{
+class LEVEL_1{
     public static void main(String args[]){
         // SolidSquare.print();
         // IncreasingStarTriangle.print();
         // DecreasingStarTriangle.print();
         // IncreasingNumberTriangle.print();
         // RepeatedNumberTriangle.print();
-        AlphabetTriangle.print();
+        // AlphabetTriangle.print();
 
     }
 }
