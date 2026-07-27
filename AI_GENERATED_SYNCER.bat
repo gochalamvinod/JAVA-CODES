@@ -3,7 +3,7 @@ setlocal enabledelayedexpansion
 title JAVA-CODES Auto Sync
 
 set "REPO_DIR=C:\Users\gocha\Desktop\JAVA FOR GITHUB"
-set "SYNC_INTERVAL=10"
+set "SYNC_INTERVAL=60"
 set "MAX_RETRIES=3"
 
 cd /d "%REPO_DIR%" || (
