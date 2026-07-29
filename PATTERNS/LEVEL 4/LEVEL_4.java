@@ -182,8 +182,6 @@ class SprialOrder{
 
 public class LEVEL_4{
     public static void main(String[] args){
-
-        // Call any pattern you want
         PascalTriangle.print();
         // NumberSpiral.print();
         // MatrixBoundry.print();
