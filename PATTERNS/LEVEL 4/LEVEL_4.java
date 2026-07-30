@@ -241,6 +241,8 @@ class SprialOrder{
         else {
             System.out.print("ENTER THE NUMBER GREATER THAN 0");
         }
+
+        
     }
     }
 }
