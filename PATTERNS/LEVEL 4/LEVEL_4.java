@@ -26,28 +26,59 @@ class PascalTriangle{                                         //formula is numbe
     }
 }
 
-class NumberSpiral{
-    static void print(){
-    Scanner Input = new Scanner(System.in);
-    Main:
-    while (true){
-        System.out.print("ENTER THE NUMBER : ");
-        int number = Input.nextInt();
-        if (number > 0){
-            for(int i = 1 ; i <=number ; i++){
-                for(int j = 1 ; j <=number ; j++){
-                    System.out.print(j+" ");
-                }
-                System.out.print(i+" ");
-            }
-            break Main;
-        }
-        else {
-            System.out.print("ENTER THE NUMBER GREATER THAN 0");
-        }
-    }
-    }
-}
+// class NumberSpiral{
+//     static void print(){
+//     Scanner Input = new Scanner(System.in);
+//     Main:
+//     while (true){
+//         System.out.print("ENTER THE NUMBER : ");
+//         int number = Input.nextInt();
+//         if (number > 0){
+//             int matrix[][] = new int[number][number];      //  loop stop at (number/2,number/2)
+//             boolean isColumn = true ;
+//             boolean isRow = false;
+//             int end = number-1;
+//             int row = 0;
+//             int turns = 1;
+//             int column = 0;
+//             for ( int i = 1 ; i<=number*number;i++){
+//                 matrix[column][row]=i;
+//                 if (turns%3!=0){
+//                     if(isColumn){
+//                         if (column != end){
+//                             column++;
+//                         }
+//                         else{
+//                             isColumn = false;
+//                             isRow = true;
+//                             turns++;
+//                         }
+//                     }
+//                     else if (isRow){
+//                         if ( row != end){
+//                             row++;
+//                         }
+//                         else{
+//                             isColumn=true;
+//                             isRow=false;
+//                             turns++;
+//                         }
+//                     }
+//                 }
+//                 else{
+//                     end--;
+//                 }
+                
+//             }
+//             System.out.print(matrix[1][3]);
+//             break Main;
+//         }
+//         else {
+//             System.out.print("ENTER THE NUMBER GREATER THAN 0");
+//         }
+//     }
+//     }
+// }
 
 class MatrixBoundry{
     static void print(){
@@ -56,8 +87,29 @@ class MatrixBoundry{
     while (true){
         System.out.print("ENTER THE NUMBER : ");
         int number = Input.nextInt();
+        int val = 1;
         if (number > 0){
-
+            for(int i = 1;i<=number;i++){
+                if ( i == 1 || i == number){
+                    for ( int j = 1 ; j<=number ; j++){
+                        System.out.print(val+" ");
+                        val++;
+                    }
+                }
+                else{
+                    for(int j = 1 ; j <= number;j++){
+                        if ( j == 1 || j == number){
+                            System.out.print(val+" ");
+                            val++;
+                        }
+                        else{
+                            System.out.print("  ");
+                            val++;
+                        }
+                    }
+                }
+                System.out.println();
+            }
             break Main;
         }
         else {
@@ -196,9 +248,9 @@ class SprialOrder{
 public class LEVEL_4{
     public static void main(String[] args){
         // PascalTriangle.print();
-        NumberSpiral.print();
+        // NumberSpiral.print();
         // MatrixBoundry.print();
-        // SquareMatrix.print();
+        SquareMatrix.print();
         // Zig_Zag.print();
         // Wave.print();
         // SnakeMatrix.print();
