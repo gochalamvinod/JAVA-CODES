@@ -152,8 +152,27 @@ class Zig_Zag{
         System.out.print("ENTER THE NUMBER : ");
         int number = Input.nextInt();
         if (number > 0){
-
-            break Main;
+            int num = 1;
+            int zigzag = number*2-1;
+            int[][] matrix = new int[number][number];
+            for (int i = 0 ; i < number;i++){
+                for(int j = 0 ; j < number;j++){
+                    matrix[i][j] = num;
+                    num++;
+                }
+            }
+            for ( int i = 0 ; i<=zigzag ; i++){
+                System.out.print("Diagonal : " + i + " ");
+                for (int j = 0 ; j<number; j++){
+                    for(int k = 0 ; k<number;k++){
+                        if (j+k==i){
+                            System.out.print(matrix[j][k]+" ");
+                        }
+                    }
+                }
+                System.out.println("");
+            }
+                break Main;
         }
         else {
             System.out.print("ENTER THE NUMBER GREATER THAN 0");
