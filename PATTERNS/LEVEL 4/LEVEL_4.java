@@ -126,8 +126,15 @@ class SquareMatrix{
     while (true){
         System.out.print("ENTER THE NUMBER : ");
         int number = Input.nextInt();
+        int temp = 1;
         if (number > 0){
-
+            for(int i = 1 ; i <= number ; i++){
+                for ( int j = 1; j <= number;j++){
+                    System.out.print(temp + " ");
+                    temp++;
+                }
+                System.out.println();
+            }
             break Main;
         }
         else {
@@ -242,7 +249,7 @@ class SprialOrder{
             System.out.print("ENTER THE NUMBER GREATER THAN 0");
         }
 
-        
+
     }
     }
 }
@@ -252,8 +259,8 @@ public class LEVEL_4{
         // PascalTriangle.print();
         // NumberSpiral.print();
         // MatrixBoundry.print();
-        SquareMatrix.print();
-        // Zig_Zag.print();
+        // SquareMatrix.print();
+        Zig_Zag.print();
         // Wave.print();
         // SnakeMatrix.print();
         // ConcentricNumberSquare.print();
