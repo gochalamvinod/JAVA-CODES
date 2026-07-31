@@ -221,19 +221,39 @@ class Wave{
 
 class SnakeMatrix{
     static void print(){
-    Scanner Input = new Scanner(System.in);
-    Main:
-    while (true){
-        System.out.print("ENTER THE NUMBER : ");
-        int number = Input.nextInt();
-        if (number > 0){
-
-            break Main;
+        Scanner Input = new Scanner(System.in);
+        Main:
+        while (true){
+            System.out.print("ENTER THE NUMBER : ");
+            int number = Input.nextInt();
+            if (number > 0){
+                int value = 1;
+                int[][] matrix = new int[number][number];
+                for(int i = 0 ; i<number;i++){
+                    for(int j = 0 ; j<number;j++){
+                        matrix[i][j]= value;
+                        value++;
+                    }
+                }
+                System.out.print("THE SNAKE MATRIX IS : ");
+                for(int row = 1 ; row <= number ; row++){
+                    if (row%2==0){
+                        for (int column=number-1;column<=0;column--){
+                            System.out.print(matrix[row-1][column]+" ");
+                        }
+                    }
+                    else{
+                        for (int column=0 ; column<number ; column++){
+                            System.out.print(matrix[row-1][column]+" ");
+                        }
+                    }
+                }
+                break Main;
+            }
+            else {
+                System.out.print("ENTER THE NUMBER GREATER THAN 0");
+            }
         }
-        else {
-            System.out.print("ENTER THE NUMBER GREATER THAN 0");
-        }
-    }
     }
 }
 
@@ -300,8 +320,8 @@ public class LEVEL_4{
         // MatrixBoundry.print();
         // SquareMatrix.print();
         // Zig_Zag.print();
-        Wave.print();
-        // SnakeMatrix.print();
+        // Wave.print();
+        SnakeMatrix.print();
         // ConcentricNumberSquare.print();
         // ConcentricAplhabetSquare.print();
         // SprialOrder.print();
