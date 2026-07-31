@@ -183,19 +183,39 @@ class Zig_Zag{
 
 class Wave{
     static void print(){
-    Scanner Input = new Scanner(System.in);
-    Main:
-    while (true){
-        System.out.print("ENTER THE NUMBER : ");
-        int number = Input.nextInt();
-        if (number > 0){
-
-            break Main;
+        Scanner Input = new Scanner(System.in);
+        Main:
+        while (true){
+            System.out.print("ENTER THE NUMBER : ");
+            int number = Input.nextInt();
+            if (number > 0){
+                int value = 1;
+                int[][] matrix = new int[number][number];
+                System.out.print("Wave Format : ");
+                for(int i = 0 ; i<number;i++){
+                    for(int j = 0 ; j<number;j++){
+                        matrix[i][j]= value;
+                        value++;
+                    }
+                }
+                for (int column = 1 ; column <= number ; column++){
+                    if (column % 2 ==0){
+                        for(int row = number-1 ; row >= 0 ; row--){
+                            System.out.print(matrix[column-1][row] + " ");
+                        }
+                    }
+                    else{
+                        for(int row = 0 ; row < number ; row++){
+                            System.out.print(matrix[column-1][row] + " ");
+                        }
+                    }
+                }
+                break Main;
+            }
+            else {
+                System.out.print("ENTER THE NUMBER GREATER THAN 0");
+            }
         }
-        else {
-            System.out.print("ENTER THE NUMBER GREATER THAN 0");
-        }
-    }
     }
 }
 
@@ -219,57 +239,57 @@ class SnakeMatrix{
 
 class ConcentricNumberSquare{
     static void print(){
-    Scanner Input = new Scanner(System.in);
-    Main:
-    while (true){
-        System.out.print("ENTER THE NUMBER : ");
-        int number = Input.nextInt();
-        if (number > 0){
+        Scanner Input = new Scanner(System.in);
+        Main:
+        while (true){
+            System.out.print("ENTER THE NUMBER : ");
+            int number = Input.nextInt();
+            if (number > 0){
 
-            break Main;
+                break Main;
+            }
+            else {
+                System.out.print("ENTER THE NUMBER GREATER THAN 0");
+            }
         }
-        else {
-            System.out.print("ENTER THE NUMBER GREATER THAN 0");
-        }
-    }
     }
 }
 
 class ConcentricAplhabetSquare{
     static void print(){
-    Scanner Input = new Scanner(System.in);
-    Main:
-    while (true){
-        System.out.print("ENTER THE NUMBER : ");
-        int number = Input.nextInt();
-        if (number > 0){
+        Scanner Input = new Scanner(System.in);
+        Main:
+        while (true){
+            System.out.print("ENTER THE NUMBER : ");
+            int number = Input.nextInt();
+            if (number > 0){
 
-            break Main;
+                break Main;
+            }
+            else {
+                System.out.print("ENTER THE NUMBER GREATER THAN 0");
+            }
         }
-        else {
-            System.out.print("ENTER THE NUMBER GREATER THAN 0");
-        }
-    }
     }
 }
 
 class SprialOrder{
     static void print(){
     Scanner Input = new Scanner(System.in);
-    Main:
-    while (true){
-        System.out.print("ENTER THE NUMBER : ");
-        int number = Input.nextInt();
-        if (number > 0){
+        Main:
+        while (true){
+            System.out.print("ENTER THE NUMBER : ");
+            int number = Input.nextInt();
+            if (number > 0){
 
-            break Main;
+                break Main;
+            }
+            else {
+                System.out.print("ENTER THE NUMBER GREATER THAN 0");
+            }
+
+
         }
-        else {
-            System.out.print("ENTER THE NUMBER GREATER THAN 0");
-        }
-
-
-    }
     }
 }
 
@@ -279,8 +299,8 @@ public class LEVEL_4{
         // NumberSpiral.print();
         // MatrixBoundry.print();
         // SquareMatrix.print();
-        Zig_Zag.print();
-        // Wave.print();
+        // Zig_Zag.print();
+        Wave.print();
         // SnakeMatrix.print();
         // ConcentricNumberSquare.print();
         // ConcentricAplhabetSquare.print();
