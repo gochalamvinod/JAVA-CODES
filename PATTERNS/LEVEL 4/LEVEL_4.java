@@ -266,7 +266,7 @@ class ConcentricNumberSquare{
             int number = Input.nextInt();
             if (number > 0){
 
-                break Main;
+                break Main; 
             }
             else {
                 System.out.print("ENTER THE NUMBER GREATER THAN 0");
