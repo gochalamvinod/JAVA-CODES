@@ -1,0 +1,31 @@
+METHOD COVERAGE KEY
+====================
+Question numbers are the SAME across all 5 levels (Q1 in level1 covers the
+same methods as Q1 in level5, just at a harder difficulty). Use this AFTER
+attempting a level to check you actually exercised the intended methods —
+not before, or it defeats the point of figuring it out yourself.
+
+Verified against java-string-builder-buffer-reference.html: every one of
+the 50 String methods and 27 shared StringBuilder/StringBuffer methods in
+that file appears in exactly one question below. 77 methods / 15 questions.
+
+Q1  (Case & Search)             toUpperCase, toLowerCase, indexOf, lastIndexOf, contains
+Q2  (Whitespace)                strip, stripLeading, stripTrailing, trim, isBlank
+Q3  (Equality/Comparison)       equals, equalsIgnoreCase, compareTo, compareToIgnoreCase, contentEquals
+Q4  (Prefix/Suffix/Pattern)     startsWith, endsWith, matches, regionMatches, isEmpty
+Q5  (Building/Formatting)       concat, repeat, String.join, String.format, formatted
+Q6  (Conversions In/Out)        String.valueOf, String.copyValueOf, toCharArray, getBytes, getChars
+Q7  (Substrings/Splitting)      substring, split, subSequence, replace, replaceFirst
+Q8  (Regex/Length/Identity)     replaceAll, length, hashCode, intern, charAt
+Q9  (Unicode/Code Points)       codePointAt, codePointBefore, codePointCount, codePoints, chars
+Q10 (Text Blocks/Lines)         lines, indent, stripIndent, translateEscapes, toString
+Q11 (Building w/ StringBuilder) append, appendCodePoint, insert, length, toString      [SB/SF]
+Q12 (Deleting/Modifying)        delete, deleteCharAt, replace, setCharAt, setLength    [SB/SF]
+Q13 (Reading/Searching)         charAt, indexOf, lastIndexOf, substring, subSequence   [SB/SF]
+Q14 (Capacity Management)       capacity, ensureCapacity, trimToSize, reverse, equals  [SB/SF]
+Q15 (Advanced)                  compareTo, getChars, chars, codePointAt, codePointBefore,
+                                 codePointCount, codePoints                            [SB/SF]
+
+50 String methods (Q1-Q10) + 27 StringBuilder/StringBuffer methods (Q11-Q15) = 77.
+StringBuilder and StringBuffer share an identical API, so one question set covers
+both, matching the scope note in your reference file.

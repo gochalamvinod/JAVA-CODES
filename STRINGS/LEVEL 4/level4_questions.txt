@@ -1,0 +1,15 @@
+Write a Java program that takes a paragraph and a list of banned words, converts the paragraph to lowercase, finds the first and last position of each banned word that appears, and prints a report of how many banned words were found.
+Write a Java program that validates a form field: it cleans the input, rejects it as invalid if it's blank, and otherwise reports how many leading and how many trailing whitespace characters were originally present before cleaning.
+Write a Java program that sorts a list of words alphabetically (case-insensitively), and for any two adjacent words that are equal only when case is ignored, flags them as duplicates.
+Write a Java program that checks whether a fixed-length "area code" region appears at a specific position within several phone number strings, without extracting a substring first, and reports which numbers pass.
+Write a Java program to build a formatted table row where each column is padded to a fixed width.
+Write a Java program to copy a middle portion of a string's characters into a separate character array without using substring.
+Write a Java program that fixes only the first misspelled occurrence of a word in a paragraph, leaving all later occurrences of the same word unchanged.
+Write a Java program that checks whether two separately built strings with identical content refer to the same object in memory, and again after a specific step is taken to make them share a reference.
+Write a Java program that counts how many of the characters in a string are digits, using a stream of character codes.
+Write a Java program that converts a string containing literal backslash-n and backslash-t sequences (typed as raw text, not real escapes) into actual newlines and tabs.
+Write a Java program to build a formatted label by appending text, a number, and a special character (using its numeric code) to the same StringBuilder.
+Write a Java program to truncate a StringBuilder to a shorter length and then replace a range within the shortened text with new content.
+Write a Java program that finds every occurrence of a repeated word inside a StringBuilder and prints the position of each one.
+Write a Java program to shrink a StringBuilder's capacity down to fit its actual content after a lot of text has been removed from it.
+Write a Java program that counts how many Unicode code points are in a range of a StringBuilder's text.

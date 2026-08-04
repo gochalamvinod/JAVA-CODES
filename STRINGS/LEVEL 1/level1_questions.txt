@@ -1,0 +1,15 @@
+Write a Java program to convert a sentence to uppercase and print it.
+Write a Java program to remove leading and trailing whitespace from a string and print the result.
+Write a Java program to check whether two words are exactly equal.
+Write a Java program to check whether a filename ends with ".txt".
+Write a Java program to join two words together into one string.
+Write a Java program to convert an integer into a string.
+Write a Java program to extract the first five characters of a string.
+Write a Java program to print the length of a string.
+Write a Java program to print the numeric character code of the first letter in a word.
+Write a Java program to count how many lines are in a multi-line string.
+Write a Java program to build a sentence by appending several words to a StringBuilder.
+Write a Java program to remove the last character from a StringBuilder.
+Write a Java program to print the character at a given position in a StringBuilder.
+Write a Java program to reverse the text stored in a StringBuilder.
+Write a Java program to compare two StringBuilders and print which one comes first alphabetically.

@@ -1,0 +1,15 @@
+Write a Java program to check whether a sentence contains a given word and print the word's position if found.
+Write a Java program that reads a list of strings and prints only the ones that are not blank after trimming.
+Write a Java program to check whether two words are equal ignoring case, and print which one comes first alphabetically.
+Write a Java program to validate a list of filenames, printing which ones start with "draft_" and which ones are empty strings.
+Write a Java program to print a line made of a dash character repeated 20 times.
+Write a Java program to convert a string into a character array and print each character on its own line.
+Write a Java program to split a comma-separated line into individual fields and print each one.
+Write a Java program to remove all digits from a string using a regular expression.
+Write a Java program to print the character code of every character in a short word.
+Write a Java program to add 4 spaces of indentation to every line of a block of text.
+Write a Java program to insert a word into the middle of an existing StringBuilder's text.
+Write a Java program to delete a range of characters from the middle of a StringBuilder.
+Write a Java program to find the position of a word inside a StringBuilder.
+Write a Java program to print a StringBuilder's current capacity.
+Write a Java program to copy a range of characters from a StringBuilder into a plain character array.

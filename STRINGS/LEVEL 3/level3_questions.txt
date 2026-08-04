@@ -1,0 +1,15 @@
+Write a Java program that searches a paragraph for every occurrence of a keyword (case-insensitively) and prints how many times it appears.
+Write a Java program that cleans a list of user inputs by removing leading whitespace only where needed and trailing whitespace only where needed, printing which side(s) each input had extra spaces on.
+Write a Java program that compares a list of words pairwise and prints which pairs are equal ignoring case but not equal exactly.
+Write a Java program that validates a set of product codes, accepting only ones that start with "PRD-" and match a fixed-length numeric pattern after the prefix.
+Write a Java program to join a list of items with a comma and space, and print the count of items alongside the joined result.
+Write a Java program to convert a character array back into a string and print its byte representation.
+Write a Java program to replace every space in a sentence with an underscore.
+Write a Java program to print the character at each position of a string, one per line.
+Write a Java program to count how many characters are in a sentence using a character stream.
+Write a Java program to remove inconsistent leading whitespace from a block of text so every line starts at the same column.
+Write a Java program to build a string piece by piece with a StringBuilder and print its length after each addition.
+Write a Java program to replace every vowel in a StringBuilder with an asterisk, one character at a time.
+Write a Java program to extract a portion of text from a StringBuilder using a start and end position.
+Write a Java program to increase a StringBuilder's capacity ahead of time before adding a large amount of text.
+Write a Java program to print the character code of every character in a StringBuilder using a stream.
