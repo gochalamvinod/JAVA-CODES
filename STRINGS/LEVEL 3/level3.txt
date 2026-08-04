@@ -1,0 +1,42 @@
+JAVA STRINGS - LEVEL 3 (STRING POOL & STRINGBUILDER)
+======================================================
+
+Q1. String pool check: String a = "Java"; String b = "Java"; a == b ?
+Input:  a == b
+Output: true
+
+Q2. String c = new String("Java"); a == c ?
+Input:  a == c
+Output: false
+
+Q3. Use intern() on c and compare with a.
+Input:  c.intern() == a
+Output: true
+
+Q4. Insert "," into "Hello World" at index 5 using StringBuilder.
+Input:  new StringBuilder("Hello World").insert(5, ",")
+Output: Hello, World
+
+Q5. Delete the character at index 0 in "Hello" using StringBuilder.
+Input:  new StringBuilder("Hello").deleteCharAt(0)
+Output: ello
+
+Q6. Replace characters from index 6 to 11 in "Hello World" with "Java" using StringBuilder.
+Input:  new StringBuilder("Hello World").replace(6, 11, "Java")
+Output: Hello Java
+
+Q7. Use String.repeat() to repeat "ab" 3 times (Java 11+).
+Input:  "ab".repeat(3)
+Output: ababab
+
+Q8. Compare trim() vs strip() on "  Java  ".
+Input:  "  Java  ".strip()
+Output: Java
+
+Q9. Check palindrome using StringBuilder.reverse(): does "madam" equal its reverse?
+Input:  new StringBuilder("madam").reverse().toString().equals("madam")
+Output: true
+
+Q10. Get the capacity behavior: create StringBuilder sb = new StringBuilder("Java"); print sb.length().
+Input:  sb.length()
+Output: 4

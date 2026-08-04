@@ -1,0 +1,42 @@
+JAVA STRINGS - LEVEL 2 (CORE METHODS)
+======================================
+
+Q1. Compare "apple" and "banana" using compareTo().
+Input:  "apple".compareTo("banana")
+Output: -1
+
+Q2. Convert int 123 to String using String.valueOf() and print its length.
+Input:  String.valueOf(123)
+Output: 123, Length: 3
+
+Q3. Check if "Java is fun" contains "fun".
+Input:  "Java is fun".contains("fun")
+Output: true
+
+Q4. Check startsWith() and endsWith() on "programming.txt".
+Input:  s.startsWith("program")  |  s.endsWith(".txt")
+Output: true | true
+
+Q5. Split "a,b,c,d" by comma and count the parts.
+Input:  "a,b,c,d".split(",")
+Output: [a, b, c, d], Count: 4
+
+Q6. Use StringBuilder to append "Hello" + " " + "World", then reverse it.
+Input:  new StringBuilder("Hello World").reverse().toString()
+Output: dlroW olleH
+
+Q7. Use String.format with %s and %d.
+Input:  String.format("Name: %s, Age: %d", "Vinod", 25)
+Output: Name: Vinod, Age: 25
+
+Q8. Join "2024", "08", "04" with a "-" separator using String.join().
+Input:  String.join("-", "2024", "08", "04")
+Output: 2024-08-04
+
+Q9. Demonstrate String immutability: s1 = "Java"; s2 = s1.concat(" Language");
+Input:  s1, s2
+Output: s1 = Java, s2 = Java Language
+
+Q10. Convert a char array {'J','a','v','a'} into a String.
+Input:  new String(new char[]{'J','a','v','a'})
+Output: Java

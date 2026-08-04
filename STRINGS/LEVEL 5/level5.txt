@@ -1,0 +1,42 @@
+JAVA STRINGS - LEVEL 5 (ALGORITHMIC)
+======================================
+
+Q1. Reverse a string manually without using built-in reverse (char array swap).
+Input:  "hello"
+Output: olleh
+
+Q2. Check if two strings are anagrams of each other.
+Input:  "listen", "silent"
+Output: true
+
+Q3. Find the first non-repeating character in "swiss".
+Input:  "swiss"
+Output: w
+
+Q4. Count occurrences of each character in "programming" using a HashMap.
+Input:  "programming"
+Output: {p=1, r=2, o=1, g=2, a=1, m=2, i=1, n=1}
+
+Q5. Find the length of the longest substring without repeating characters.
+Input:  "abcabcbb"
+Output: 3 (substring "abc")
+
+Q6. Check if a string is a palindrome using two-pointer technique.
+Input:  "racecar"
+Output: true
+
+Q7. Remove duplicate characters from a string while preserving order.
+Input:  "aabbccdd"
+Output: abcd
+
+Q8. Find the total number of permutations possible for a string (count only).
+Input:  "abc"
+Output: 6 (3!)
+
+Q9. Count word frequency in a sentence.
+Input:  "the quick brown fox the lazy dog the"
+Output: {the=3, quick=1, brown=1, fox=1, lazy=1, dog=1}
+
+Q10. Implement basic string compression (only compress if shorter).
+Input:  "aaabbbccc"
+Output: a3b3c3

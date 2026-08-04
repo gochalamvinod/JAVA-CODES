@@ -1,0 +1,42 @@
+JAVA STRINGS - LEVEL 1 (BASICS)
+================================
+
+Q1. Create a String s = "Hello, World!" and print its length.
+Input:  String s = "Hello, World!";
+Output: 13
+
+Q2. Given String s = "Java Programming"; print the character at index 5.
+Input:  s.charAt(5)
+Output: P
+
+Q3. Concatenate "Hello" and "World" using the + operator, print the result.
+Input:  "Hello" + "World"
+Output: HelloWorld
+
+Q4. Given String s = "  Java  "; use trim() and print the result along with its length.
+Input:  s.trim()
+Output: Java, Length: 4
+
+Q5. Convert "java string" to uppercase.
+Input:  "java string".toUpperCase()
+Output: JAVA STRING
+
+Q6. Convert "JAVA STRING" to lowercase.
+Input:  "JAVA STRING".toLowerCase()
+Output: java string
+
+Q7. Find the index of "World" in "Hello World".
+Input:  "Hello World".indexOf("World")
+Output: 6
+
+Q8. Check if "Hello" equals "hello" using equals() and equalsIgnoreCase().
+Input:  "Hello".equals("hello")  |  "Hello".equalsIgnoreCase("hello")
+Output: false | true
+
+Q9. Extract the substring "Programming" from "Java Programming" using substring().
+Input:  "Java Programming".substring(5)
+Output: Programming
+
+Q10. Replace all occurrences of 'a' with 'o' in "banana".
+Input:  "banana".replace('a', 'o')
+Output: bonono
