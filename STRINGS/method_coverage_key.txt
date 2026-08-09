@@ -1,4 +1,4 @@
-METHOD COVERAGE KEY
+METHOD COVERAGE KEY HINTS
 ====================
 Question numbers are the SAME across all 5 levels (Q1 in level1 covers the
 same methods as Q1 in level5, just at a harder difficulty). Use this AFTER
