@@ -13,4 +13,4 @@ Write a Java program to print a number pyramid where each row contains the same 
 Write a Java program to print a pyramid where numbers increase from 1 and then decrease back to 1.
 Write a Java program to print an alphabet pyramid where letters increase and then decrease.
 Write a Java program to print a butterfly pattern using nested loops.
-Write a Java program to print an X pattern using nested loops.
+Write a Java program to print an X pattern using nested loops .
