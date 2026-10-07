@@ -42,20 +42,100 @@ class DemoDoubleLinkedList{
         length++;
     }
 
-    public void insert(int index , Object data){
-        temp = new Node(data);
-        
+    public void insertFromFirst(int index , Object data){
+            if(index==0){
+                addFirst(data);
+            }
+            else if(index==length-1){
+                addLast(data);
+            }
+            else if(index<length){
+                temp = new Node(data);
+                Node temp_head = head;
+                Node temp_tail = tail;
+                for(int i = 0 ; i<index ;i++){
+                    temp_head = temp_head.nextNode;
+                }
+                for(int j = length ; j > index ; j--){
+                    temp_tail = temp_tail.previousNode;
+                }
+                temp.nextNode = temp_head;
+                temp.previousNode = temp_tail;
+                temp_tail.nextNode = temp;
+                temp_head.previousNode = temp;
+                if(index == 0){
+                    head = temp;
+                }
+                length++;
+            }
+            else{
+                System.out.println("Index OutOfBound");
+            }
+        }
+
+    public void insertFromLast(int index , Object data){
+
+            if(index==0){
+                addFirst(data);
+            }
+            else if(index==length-1){
+                addLast(data);
+            }
+            else if(index<length){
+            temp = new Node(data);
+            Node temp_head = head;
+            Node temp_tail = tail;
+            for(int i = 0 ; i<index ;i++){
+                temp_head = temp_head.nextNode;
+            }
+            for(int j = length ; j > index ; j--){
+                temp_tail = temp_tail.previousNode;
+            }
+            temp.nextNode = temp_head;
+            temp.previousNode = temp_tail;
+            temp_tail.nextNode = temp;
+            temp_head.previousNode = temp;
+            if(index == 0){
+                head = temp;
+            }
+            length++;
+        }
+        else{
+            System.out.println("Index OutOfBound");
+        }
     }
     
-    // public void deleteValue(Object data){
-    //     temp = head;
-    //     while(!temp.data.equals(data)){
+    public void deleteFirst(){
+        head = head.nextNode;
+        head.previousNode = null;
+        length--;
+    }
 
-    //     }
-    // }
+    public void deleteLast(){
+        tail = tail.previousNode;
+        tail.nextNode=null;
+        length--;
+    }
+
+    public void deleteIndex(int index){
+        if(index==0){
+            deleteFirst();
+        }
+        else if(index==length-1){
+            deleteLast();
+        }
+        else{
+            Node temp_head = head;
+            Node temp_tail = tail;
+            for(int i = 0 ; i < index ; i++){
+                temp_head=temp_head.nextNode 
+            }
+        }
+    }
 
     public void print(){
         temp=head;
+        System.out.println("");
         while(temp!=null){
             System.out.print(temp.data + " => ");
             temp=temp.nextNode;

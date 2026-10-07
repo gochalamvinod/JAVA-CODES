@@ -5,13 +5,15 @@ public class Testing{
         // vinod.addLast(100);
         // vinod.addFirst(10);
         // vinod.print();
-        DemoDoubleLinkedList vinod = new DemoDoubleLinkedList(34);
+        DemoDoubleLinkedList<Integer> vinod = new DemoDoubleLinkedList<Integer>(34);
         vinod.addFirst(200);
         vinod.addFirst(200);
         vinod.addLast(57);
-        vinod.insert(2,69);
+        vinod.insertFromFirst(2,69);
         vinod.print();
-        // System.out.print(vinod.length);
+        vinod.deleteFirst();
+        vinod.deleteLast();
+        vinod.print();
 
 
     }
